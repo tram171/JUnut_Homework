@@ -1,15 +1,16 @@
 package guru.qa.data;
 
-public enum Languages {
-    RU("ru", "Новости"),
-    EN("en", "News"),
-    CN("cn", "新闻");
 
-    public final String hrefSuffix;
-    public final String newsTitle;
+public enum Partners {
 
-    Languages(String hrefSuffix, String newsTitle) {
-        this.hrefSuffix = hrefSuffix;
-        this.newsTitle = newsTitle;
+    DIRECTBANK("1С:Директбанк", "Объединяет 1С и банк в единый механизм и делает учёт удобным"),
+    EKONTUR("Контур.Эльба", "Упрощает бухгалтерский учёт, экономит время и силы"),
+    KONTUREKSTERN("Контур.Экстерн", "Автоматизирует всё самое сложное, чтобы у тебя было больше свободного времени");
+
+    public final String partnerName;
+    public final String description;
+    Partners(String partnerName, String description){
+        this.partnerName = partnerName;
+        this.description = description;
     }
 }
