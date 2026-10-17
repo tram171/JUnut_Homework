@@ -1,6 +1,6 @@
-package guru.qa.data;
-
 import com.codeborne.selenide.Configuration;
+import guru.qa.data.HelpPages;
+import guru.qa.data.Partners;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
